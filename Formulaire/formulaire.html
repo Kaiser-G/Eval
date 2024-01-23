@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></Contactez-nous></title>
+</head>
+<header></header>
+
+<body>
+    <h1>Formulaire de contact</h1>
+
+    <form id="formulaire" method="post" action="http://fbrc.esy.es/reponse.php">
+
+        <!--Login-->
+        <label for="login">Login :</label>
+        <input type="text" id="login" name="login" value="login" placeholder="ffff1" required><br>
+
+        <!--Mot de passe-->
+        <label for="pass">Mot de passe :</label>
+        <input type="password" name="password" id="pass" value="passeword" required><br>
+
+        <!--Statue-->
+        <label for="contrat">statut :</label>
+        <input type="radio" id="cdi" name="contrat" value="cdi" checked />
+        <label for="cdi">CDI</label>
+
+        <input type="radio" id="cdd" name="contrat" value="cdd" />
+        <label for="cdd">CDD</label><br>
+
+        <!--Service-->
+        <label for="service">Service :</label>
+        <select name="service" id="service">
+            <option value="direction">Direction</option>
+            <option value="sous-direction">Sous-direction</option>
+            <option value="sous-sous-direction">Sous-sous-direction</option>
+        </select>
+        <br>
+
+        <!--Date de naissance-->
+        <label for="naissance">Date de naissance : </label>
+        <input type="date" name="naissance" id="date" required><br>
+
+        <!--Votre CV-->
+        <label for="cv">Votre CV :</label>
+        <input type="file" name="cv" id="cv" required><br>
+
+
+        <!--mail-->
+        <label for="mail">Votre mail AFPA :</label>
+        <input type="email" name="mail" id="mail" required><br>
+
+        <!--avis-->
+        <!--pour la numérotation on a besoin de JS-->
+        <label for="avis">Votre Avis :</label>
+        <input type="range" name="avis" id="avis" min="0" max="10"><br>
+
+        <!--
+        <label for="avis">Votre Avis :</label>
+        <input type="number" name="avis" id="avis" min="0" max="10"><br>
+-->
+
+
+
+
+        <!--CGU-->
+        <input type="checkbox" id="cgu" name="cgu" value="cgu" />
+        <label for="cgu">Vous avez lu les CGU</label><br>
+
+
+
+        <!--boutons-->
+        <button type="submit" name="envoyer">Validez</button>
+        <button type="reset">Annulez</button>
+
+
+    </form>
+    <!-- mis en commentaire avec ctrl / -->
+
+    <p>*information obligatoire</p>
+    <footer></footer>
+</body>
+
+</html>

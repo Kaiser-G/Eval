@@ -1,0 +1,1 @@
+Localisez le fichier ou dossier que vous voulez compresser. Appuyez de façon prolongée (ou cliquez avec le bouton droit) sur le fichier ou dossier, sélectionnez (ou pointez sur) Envoyer vers, puis sélectionnez Dossier compressé. Un dossier compressé portant le même nom est créé au même emplacement.
